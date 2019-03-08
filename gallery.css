@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+    box-sizing:border-box;
+}
+
+header{
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding-top:10px;
+}
+
+body{
+  margin:0;
+}
+
+ul{
+    float:right;
+    list-style-type:none;
+    margin-top: 40px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    font-size: 20px;
+}
+
+ul li a:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+ul li.active a{
+    background-color: #000;
+    color: #fff;
+}
+
+.logo img{
+    float: left;
+    width: 365px;
+    height: auto;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color:white;
+    font-size: 70px;
+}
+
+
+.productContainer{
+    box-sizing: border-box;
+    margin: 20px;
+}
+
+.productContainer h1, h2{
+    text-align: center;
+}
+
+/* Center website */
+.main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-size: 50px;
+    word-break: break-all;
+    padding: 10px;
+    text-align: center;
+  }
+
+  h2 {
+      padding: 15px;
+  }
+  
+  
+  footer{
+      background-color: #000;
+      color:#fff;
+      padding:40px;
+      text-align: center;
+  }
+
+
+html, body{
+    height:100%;
+}
+
+.gridContainer{
+    width:100%;
+}
+
+.gridheader {
+  text-align: center;
+  padding: 32px;
+}
+
+.gridrow {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.gridcolumn {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.gridcolumn img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Style the buttons */
+.gridbtn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.gridbtn:hover {
+  background-color: #ddd;
+}
+
+.gridbtn.active {
+  background-color: #666;
+  color: white;
+}

@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header{
+    background-image: url(pic1test.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    padding-top:1%;
+}
+
+ul{
+    float:right;
+    list-style-type:none;
+    margin-top: 40px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #000;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+    font-size: 20px;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
+
+.logo img{
+    float: left;
+    width: 365px;
+    height: auto;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    position: sticky;
+    top: 0;
+    background-color:white;
+    transition: 0.5s ease;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color:#fff;
+    font-size: 30px;
+}
+
+h1{
+    padding-top:4%;
+    text-align:center;
+    font-size: 50px;
+}
+
+.main {
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  footer{
+    background-color: #000;
+    color:#fff;
+    padding:40px;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.cardContainer{
+   padding-top:4%;
+   padding-bottom:5%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    padding: 50px;
+    transition: 0.6s ease;
+  }
+
+.card:hover{
+    background-color: #1e90ff;
+}
+
+#card1 {
+    display:inline-block;
+    margin-left:10%;
+}
+
+#card2 {
+    display:inline-block;
+}
+
+#card3 {
+    display:inline-block;
+}
+  
+  .price {
+    color: grey;
+    font-size: 22px;
+  }
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    transition: 0.5s ease;
+  }
+  
+  .card button:hover {
+    background-color: #fff;
+    color:#000;
+  }
+
+  p{
+      padding:10%;
+  }
