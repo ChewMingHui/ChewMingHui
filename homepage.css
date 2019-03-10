@@ -83,7 +83,7 @@ h1{
     text-align: center;
     left: 0;
     bottom: 0;
-    width: 100%;
+    max-width: 100%;
 }
 
 .cardContainer{
@@ -107,7 +107,7 @@ h1{
 
 #card1 {
     display:inline-block;
-    margin-left:10%;
+    margin-left:9.9%;
 }
 
 #card2 {

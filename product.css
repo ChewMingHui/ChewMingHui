@@ -172,3 +172,8 @@ ul li.active a{
 html, body{
     height:100%;
 }
+
+#activedim{
+    background-color:#000;
+    color:#fff;
+}
