@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Swimming academy located in Malaysia">
+    <meta name="keywords"
+        content="swimming, swimming courses, little manta, swimming gear, goggles, swimming suits, maluri swimming academy, 
+        swimming academy">
+    <meta name="robots" content="index, follow">
+
+    <link rel="stylesheet" type="text/css" href="homepage.css">
+    <title>Little Manta</title>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-133535928-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-133535928-1');
+    </script>
+</head>
+
+<body>
+    <header>
+
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png">
+            </div>
+            <ul>
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="product.html">Product</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="about.html">About</a>
+            </ul>
+        </div>
+        <div class="title">
+            <h1>Swimming is a skill is a must</h1>
+        </div>
+    </header>
+    <div>
+
+    </div>
+
+    <h1>What we do?</h1>
+    <div class="cardContainer">
+        <div id="card1" class="card">
+            <h2>We teaches</h2>
+            <p class="price">Courses</p>
+            <p>We provide various courses to various age of consumer, come join us now!
+            </p>
+            <p><button>Go</button></p>
+        </div>
+
+        <div id="card2" class="card">
+            <h2>We Sell</h2>
+            <p class="price">Swimming gear</p>
+            <p>Various swimming gears is sold here. They are high quality and aesthetic design.
+            </p>
+            <p><button>Go</button></p>
+        </div>
+
+        <div id="card3" class="card">
+            <h2>We capture moments</h2>
+            <p class="price">Gallery</p>
+            <p>Capture your learning moments and keeping it for memories and reminiscent.
+            </p>
+            <p><button>Go</button></p>
+        </div>
+    </div>
+    <footer>
+        <p1>@ All right served by CMH </p1>
+    </footer>
+
+</body>
+
+</html>
